@@ -1022,9 +1022,10 @@ table td{
   background: transparent;
 }
 .popup-content .close-btn {
-  background-color: var(--orange);
+  background: #007F68;
   padding: 8px 24px;
   color: var(--white);
+  border-radius: 50px;
 }
 @media (max-width: 480px) {
   .popup-content {
