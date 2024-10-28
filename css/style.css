@@ -1052,3 +1052,6 @@ table td{
     font-size: 0.875rem;
   }
 }
+.grecaptcha-badge { 
+  visibility: hidden;
+}
