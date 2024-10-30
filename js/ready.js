@@ -1,10 +1,9 @@
 $(document).ready(function() {
-    $('.terms').click(function() {
-      $('.popup').css('display', 'flex');
-    });
-  
-    $('.close-btn').click(function() {
-      $('.popup').css('display', 'none');
+    $(document).on('click', '.terms', function() {
+        $('.popup').css('display', 'flex');
     });
 
+    $(document).on('click', '.close-btn', function() {
+        $('.popup').css('display', 'none');
+    });
 });
