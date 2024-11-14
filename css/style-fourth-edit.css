@@ -1,0 +1,37 @@
+/* 廠商還有第二階段未交付，因此有修改的線放在此檔案
+避免賦覆蓋衝突 */
+.nav-item.social-link{
+    display: flex;
+    gap: 1rem;
+    padding: 10px 15px;
+    gap: 1.5rem;
+    
+}
+
+.nav-item.social-link .facebook.nav-icon-link:hover{
+    color: var(--blue) !important;
+}
+
+.nav-item.social-link .line.nav-icon-link:hover{
+    color:var(--teal) !important;
+}
+
+@media (max-width: 991px){
+    .nav-item.social-link{
+        margin-top: 20px;
+        padding: 15px 40px;
+        position: relative;
+    }
+    .nav-item.social-link::before{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 35px;
+        height: 0;
+        width: calc(100% - 70px);
+        border-top: 1px solid var(--green);
+    }
+    .nav-item.social-link .nav-icon-link .text-size-20 {
+        font-size: 24px;
+    }
+}
