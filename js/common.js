@@ -10,7 +10,8 @@ $("head").append('<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.
 $("head").append('<link href="./css/aos.css" rel="stylesheet">');
 $("head").append('<script src="./js/jquery-3.6.0.min.js"></script>');
 $("head").append('<script src="./js/bootstrap.bundle.min.js"></script>');
-$("head").append('<script src="./js/swiper-bundle.min.js"></script>');
+//$("head").append('<script src="./js/swiper-bundle.min.js"></script>');
+//swiper 要獨立放在head 這樣飲用會使網頁在vscode讀取時壞掉
 $("head").append('<script src="./js/custom.js"></script>');
 $("head").append('<script src="./js/bootstrap-submenu.js"></script>');
 $("head").append('<script src="./js/aos.js"></script>');

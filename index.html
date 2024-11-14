@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="./css/all.css" rel="stylesheet">
 		<link rel="icon" href="./img/logo_32.png?v=1" sizes="32x32" type="image/png">
+		<script src="./js/swiper-bundle.min.js"></script>
 	</head>
 	<body>
 		<div id="header"></div>
@@ -18,14 +19,14 @@
 					<div class="swiper swiper-0 h-100">
 					    <div class="swiper-wrapper">
 					        <div class="swiper-slide">
-			            	<img src="img/eecp-001.webp" class=" w-100 h-100">
+			            		<img src="img/eecp-001.webp" class=" w-100 h-100">
 					        </div> 
-		  		        <div class="swiper-slide">
-		              	<img src="img/ILIB-001.webp" class=" w-100 h-100">
-		  		        </div> 
-		  		        <div class="swiper-slide">
-		              	<img src="img/Weight Loss-000.webp" class=" w-100 h-100">
-		  		        </div>                 
+							<div class="swiper-slide">
+								<img src="img/ILIB-001.webp" class=" w-100 h-100">
+							</div> 
+							<div class="swiper-slide">
+								<img src="img/Weight Loss-000.webp" class=" w-100 h-100">
+							</div>                 
 					    </div>
 					</div>				
 					<div class="d-flex align-items-center swiper-navigation swiper-navigation-style-3">
@@ -248,8 +249,12 @@
 			<div id="form-content"></div>
 		</div>
 		<div id="footer"></div>
+
+		<script src="./js/scripts-loader.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		
 		<script>
-			let swiper_0 = new Swiper(".swiper-0", {
+			let swiper_0 = new Swiper('.swiper-0', {
 			  loop: true,
 		    slidesPerView: 1,
 			  pagination: {
@@ -318,7 +323,6 @@
 		    }
 		  });
 		</script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script src="./js/scripts-loader.js"></script>
+		
 	</body>
 </html>
