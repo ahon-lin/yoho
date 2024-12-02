@@ -1,7 +1,6 @@
 // scripts-loader.js
 const scripts = [
   "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js",
-  "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
   "./js/custom.js",
   "./js/bootstrap-submenu.js",
   "./js/aos.js",
