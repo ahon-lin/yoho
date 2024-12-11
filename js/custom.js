@@ -1,16 +1,28 @@
+// $(function () {
+// 	$("#header").load("./commom/header.html", function () {
+// 		$("#footer").load("./commom/footer.html", function () {
+// 			if ($('#form-content').length) {
+// 				$("#form-content").load("./commom/form.html", function () {
+// 					jsInit();
+// 				});
+// 			} else {
+// 				jsInit();
+// 			}
+// 		});
+// 	});
+// })
+
 $(function () {
 	$("#header").load("./commom/header.html", function () {
-		$("#footer").load("./commom/footer.html", function () {
-			if ($('#form-content').length) {
-				$("#form-content").load("./commom/form.html", function () {
-					jsInit();
-				});
-			} else {
+		if ($('#form-content').length) {
+			$("#form-content").load("./commom/form.html", function () {
 				jsInit();
-			}
-		});
+			});
+		} else {
+			jsInit();
+		}
 	});
-})
+});
 
 // document.addEventListener("DOMContentLoaded",function(){
 // 	$("#header").load("./commom/header.html", function () {
