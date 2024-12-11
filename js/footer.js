@@ -1,6 +1,8 @@
-customElements.define('footer-zone', class extends HTMLElement {
+customElements.define(
+  "footer-zone",
+  class extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = `
+      this.innerHTML = `
         <footer class="footer-zone">
             <div class="position-relative">
                 <div class="position-absolute left-0 bottom-0 col-4">
@@ -200,7 +202,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                 <p class="dash text-size-12 m-0 text-white">
                     /
                 </p>
-                    <a class="terms text-size-12 m-0 text-white">
+                    <a class="text-size-12 m-0 text-white" href="http://127.0.0.1:5500/privacy-policy.html">
                         隱私權政策＆條款 Privacy Protection Terms
                     </a>
                 
@@ -213,4 +215,5 @@ customElements.define('footer-zone', class extends HTMLElement {
         </footer>
         `;
     }
-});
+  }
+);
