@@ -195,7 +195,7 @@ customElements.define(
                     </p>
                 </div>
             </div>
-            <div class="bg-color-1 copyrights-zone py-3">
+            <div class="bg-color-1 copyrights-zone">
                 <p class="rights text-size-12 m-0 text-white">
                     生生優活版權所有 © All Rights Reserved.
                 </p>
