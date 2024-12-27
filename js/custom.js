@@ -15,11 +15,8 @@
 $(function () {
 	$("#header").load("./commom/header.html", function () {
 		if ($('#form-content').length) {
-			$("#form-content").load("./commom/form.html", function () {
-				jsInit();
+			$("#form-content").load("./commom/form.html", function () {				
 			});
-		} else {
-			jsInit();
 		}
 	});
 });
