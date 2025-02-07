@@ -1,5 +1,4 @@
-/* 廠商還有第二階段未交付，因此有修改的線放在此檔案
-避免賦覆蓋衝突 */
+/* 廠商還有第二階段未交付，因此有修改的先放在此檔案，避免衝突 */
 .nav-item.social-link{
     display: flex;
     gap: 1rem;
@@ -54,7 +53,19 @@
     grid-row-end: 3;
 }
 
+/*案例分享*/
+.case-sharing .list-zone{
+    padding: 6rem 0;
+}
 
+.case-sharing .list-zone .card a{
+    padding: 2rem 0 0 0;
+}
+
+.health-education-single .post-content p{
+    margin-bottom: 0;
+    padding-bottom: .75rem;
+}
 @media (max-width: 991px){
     .nav-item.social-link{
         margin-top: 20px;
