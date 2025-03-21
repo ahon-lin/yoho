@@ -137,6 +137,16 @@
     color: red;
     margin-top: -.9rem;
 }
+@media (max-width: 1200px){
+    .header-top-bar .container{
+        max-width: 100%;
+        padding-left: 1rem !important;
+    }
+    .header-top-bar .nav-link .contact-form{
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
 @media (max-width: 991px){
     .nav-item.social-link{
         margin-top: 20px;
@@ -154,6 +164,14 @@
     }
     .nav-item.social-link .nav-icon-link .text-size-20 {
         font-size: 24px;
+    }
+    .header-top-bar .nav-link .contact-form{
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+    .header-top-bar .container{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
     }
 }
 @media (max-width: 768px){
