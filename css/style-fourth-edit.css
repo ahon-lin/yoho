@@ -114,6 +114,7 @@
    height: 44px;
    display: flex;
    align-items: center;
+   align-self: center;
 }
 
 .case-sharing-single .form-link .contact-form,
@@ -161,9 +162,9 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    width: fit-content;
+    width: 100%;
 }
 
 .health-education-single .misconception-zone{
