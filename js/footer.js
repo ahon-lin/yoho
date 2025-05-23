@@ -161,6 +161,8 @@ customElements.define(
                                         </div>
                                         <a class="d-block text-color-4 submenu" href="post-theme-3.html">減重與營養課程</a>
                                         <a class="d-block text-color-4 submenu" href="post-theme-4.html">善纖達</a>
+                                        <a class="d-block text-color-4 submenu" href="post-theme-8.html">週纖達</a>
+                                        <a class="d-block text-color-4 submenu" href="post-theme-9.html">猛健樂</a>
                                         <a class="d-block text-color-4 submenu" href="post-theme-5.html">CGM連續血糖監測儀</a>
                                     </div>
                                     <div class="col-md-4 col-6 pb-5">
