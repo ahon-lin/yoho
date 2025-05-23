@@ -98,6 +98,7 @@
     padding: 4px;
     margin: 8px 8px 0 0;
 }
+.post-theme-9 .commend-zone,
 .case-sharing-single .commend-zone,
 .health-education-single .commend-zone{
     width: 100%;
@@ -124,6 +125,8 @@
     border: 0;
     width: auto;
 }
+.post-theme-9 .commend-zone .commend-container.column-2,
+.post-theme-9 .commend-zone .commend-container.column-3,
 .case-sharing-single .commend-zone .commend-container.column-2,
 .case-sharing-single .commend-zone .commend-container.column-3,
 .health-education-single .commend-zone .commend-container.column-2,
@@ -151,9 +154,13 @@
 .line-bottom{
     border-bottom: 1px solid #49bf25;;
 }
+.post-theme-9 .commend-zone .commend-container.column-3,
 .case-sharing-single .commend-zone .commend-container.column-3,
 .health-education-single .commend-zone .commend-container.column-3{
     grid-template-columns: .5fr .75fr 1fr;
+}
+.commend-container.column-3 .content.-r2{
+    grid-column: 2 / 4;
 }
 
 .case-sharing-single .img-content-zone,
@@ -205,6 +212,17 @@
 .link-to-youdonApp-btn img{
     width: 100%;
     height: auto;
+}
+.use-title{
+    margin-left: 1.5rem;
+}
+.use-img{
+    height: 740px;
+    width: auto;
+}
+.use-img img{
+    height: 100%;
+    width: auto;
 }
 @media (max-width: 1200px){
     .header-top-bar .container{
@@ -258,6 +276,10 @@
         width: 160px !important;
         height: auto !important;
     }
+    .post-theme-9 .commend-zone .commend-container.column-2, .post-theme-9 .commend-zone .commend-container.column-3, .case-sharing-single .commend-zone .commend-container.column-2, .case-sharing-single .commend-zone .commend-container.column-3, .health-education-single .commend-zone .commend-container.column-2, .health-education-single .commend-zone .commend-container.column-3{
+            padding: 1.5rem 0 .75rem 0;
+    }
+
 }
 
 @media (max-width: 400px){
